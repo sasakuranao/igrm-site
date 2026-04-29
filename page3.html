@@ -1,14 +1,34 @@
 <!DOCTYPE html>
-<html>
+<div class="property">
+  <img src="IMG_20260429_162434.png" alt="物件画像" class="property-img">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
-</head>
+  <div class="property-text">
+    <h2>Aタイプ（弋が丘団地）</h2>
+    <p>
+      一定期間の移住を経て、問題行動が確認されなかった個体が移送される団地です。Bタイプよりも安全性・防音性共に優れています。<br>
+      
+    </p>
+  </div>
+</div>
 
-<body>
-  
-</body>
+<style>
+.property {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 30px;
+  margin: 50px auto;
+  max-width: 900px;
+}
 
-</html>
+.property-img {
+  width: 400px;
+  height: auto;
+  object-fit: cover;
+}
+
+.property-text {
+  max-width: 400px;
+  text-align: left;
+}
+</style>
